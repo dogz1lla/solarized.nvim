@@ -118,4 +118,45 @@ M.selenized = {
   git_modify = '#dbb32d',
 }
 
+-- my custom take on the default palette, removed red/blue/orange text colors
+---@type solarized.palette
+M.solarized_calm = {
+  base0 = '#839496',
+  base00 = '#657B83',
+  base01 = '#586E75',
+  base02 = '#073642',
+  base03 = '#002B36',
+  base04 = '#002731',
+  base1 = '#93A1A1',
+  base2 = '#eee8d5',
+  base3 = '#fdf6e3',
+  base4 = '#fbf3db',
+  blue = '#9fa899',--'#268BD2', -- switched to light gray (fns)
+  cyan = '#2AA198',
+  diag_error = '#DC322F',
+  diag_hint = '#268BD2',
+  diag_info = '#268BD2',
+  diag_ok = '#859900',
+  diag_warning = '#B58900',
+  git_add = '#268BD2',
+  git_delete = '#DC322F',
+  git_modify = '#B58900',
+  green = '#859900',
+  magenta = '#839496',--'#D33682', -- switched to main text color (color of numbers)
+  mix_blue = '#0B4764',
+  mix_cyan = '#0C4E53',
+  mix_green = '#274C25',
+  mix_magenta = '#3F2E4C',
+  mix_orange = '#3C342C',
+  mix_red = '#422D33',
+  mix_violet = '#204060',
+  mix_yellow = '#364725',
+  mix_base1 = '#2C4E56',
+  mix_base01 = '#CCCDC2',
+  orange = '#839496',--'#CB4B16', -- switched to main text color (color of parens)
+  red = '#DC322F',
+  violet = '#6C71C4',
+  yellow = '#B58900',
+}
+
 return M
